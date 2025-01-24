@@ -4,4 +4,4 @@
 - React developer
 - Nodejs and Golang passionate
 - Bug hunter
-- Get deep for troubleshooting, just like a virtual Nautilus
+- Get deep for troubleshooting, just like a virtual Nautilus would do
