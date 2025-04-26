@@ -20,16 +20,8 @@
     alt="Nautilus" 
     style="
       margin-right: 20px;
-      animation: float 3s ease-in-out infinite;
       max-width: 150px;
     "
   >
 </div>
 
-<!-- CSS animation definition (GitHub allows this in Markdown!) -->
-<style>
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-</style>
