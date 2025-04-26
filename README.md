@@ -14,14 +14,19 @@
     <li>- Get deep for troubleshooting, just like a virtual Nautilus would do</li>
   </ul>
 
-  <!-- Right-aligned image with animation -->
-  <img 
+   <img 
     src="./naut.png" 
     alt="Nautilus" 
     style="
       margin-right: 20px;
-      max-width: 150px;
-    "
-  >
+      animation: float 3s ease-in-out infinite;
+      max-width: 150px;" >
 </div>
 
+<!-- CSS animation definition (GitHub allows this in Markdown!) -->
+<style>
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+</style>
